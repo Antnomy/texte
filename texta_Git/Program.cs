@@ -8,11 +8,12 @@ namespace texta_Git
         {
             Console.WriteLine("Ola mundo!");
             DateTime agora = DateTime.Now;
+            Console.WriteLine(agora);
 
-            if(agora.Day < 12)
+            if(agora.Hour < 12)
             {
                 Console.WriteLine("Bom dia!");
-            }else if(agora.Day < 19)
+            }else if(agora.Hour < 19)
             {
                 Console.WriteLine("Boa Tarde!");
             }
