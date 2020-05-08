@@ -6,6 +6,7 @@ namespace texta_Git
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("push");
             Console.WriteLine("Ola mundo pessoal!");
             DateTime agora = DateTime.Now;
             Console.WriteLine(agora);
